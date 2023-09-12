@@ -54,6 +54,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   gap: 10px;
+  flex-shrink: 1;
 }
 .header-title-info h1 {
   font-size: 48px;
@@ -79,10 +80,16 @@
   border-radius: 6px;
 }
 
+#btn-signup:hover {
+  background-color: #a1cec1;
+  cursor: pointer;
+}
+
 .image {
   height: 300px;
   width: 500px;
   margin-left: 30px;
+  flex-shrink: 2;
 }
 
 /* SECTION 2 */
